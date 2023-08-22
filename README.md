@@ -3,6 +3,7 @@
 *  Used SPOTIFY API to extract  *TOP SONGS - GLOBAL* Data from Spotify.
 *  Used AWS LAMBDA service and wrote a python function to EXTRACT data LOAD on to AWS S3 Bucket.
 *  Wrote another AWS LAMBDA function to TRANSFORM data and then store it to another Bucket in AWS S3.
+*  Used AWS TRIGGER to extract data every week from SPOTIFY.
 *  Used AWS CRAWLER to infer schema of data and create an AWS CATALOG.
 *  Used AWS ATHENA to perform queries on data.
 
